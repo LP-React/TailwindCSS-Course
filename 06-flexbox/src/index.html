@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>06-flexbox</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <div class="flex h-[600px] w-[600px] mx-auto mt-10 border-black border-2 place-content-between">
+      <div class="card">1</div>
+      <div class="card self-center">2</div>
+      <div class="card self-end">3</div>
+    </div>
+
+    <div class="flex mt-10 border-black border-2 flex-wrap gap-4">
+        <div class="card grow shrink-0">1</div>
+        <div class="card grow shrink-0">2</div>
+        <div class="card grow shrink-0">3</div>
+        <div class="card grow shrink-0">4</div>
+        <div class="card grow shrink-0">5</div>
+        <div class="card grow shrink-0">6</div>
+    </div>
+
+    <div class="flex mt-10 border-black border-2 gap-4 flex-wrap">
+        <div class="card basis-1/4 xl:basis-1/2">1</div>
+        <div class="card basis-1/4 xl:basis-1/2">2</div>
+        <div class="card basis-1/4 xl:basis-1/2">3</div>
+        <div class="card basis-1/4 xl:basis-1/2">4</div>
+    </div>
+  </body>
+</html>
